@@ -8,7 +8,8 @@ The model was built using KERAS library (python), and a GUI was built using TKIN
     Single-image, multi-class classification problem
     More than 40 classes
     More than 50,000 images in total
-    Large, lifelike database
+    Large, lifelike database.
+    
     link : https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign
 
 
