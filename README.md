@@ -14,7 +14,7 @@ The model was built using KERAS library (python), and a GUI was built using TKIN
     
  #Environment
     conda create -n traffic python=3.7
-    activate traffic
+    ctivate traffic
     pip install -r requirements.txt
     
 #Jupyter Notebooks
