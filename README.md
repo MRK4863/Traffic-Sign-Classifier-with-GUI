@@ -11,5 +11,15 @@ The model was built using KERAS library (python), and a GUI was built using TKIN
     Large, lifelike database.
     
     link : https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign
-
+    
+ #Environment
+    conda create -n traffic python=3.7
+    activate traffic
+    pip install -r requirements.txt
+    
+#Jupyter Notebooks
+Assuming you have ipykernel installed from your conda environment
+    ipython kernel install --user --name=traffic
+    conda activate traffic
+    jupyter-notebook
 
