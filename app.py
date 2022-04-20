@@ -99,7 +99,7 @@ classes = { 1:'Speed limit (20km/h)',
 app = Flask(__name__)
 
 # Model saved with Keras model.save()
-MODEL_PATH = 'models/traffic_sign_model_grayscale_2.model'
+MODEL_PATH = r"E:/GitHub/Traffic-Sign-Classifier-with-GUI/models/traffic_sign_model_grayscale_2.model"
 
 # Load your trained model
 model = load_model(MODEL_PATH)
