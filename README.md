@@ -11,7 +11,15 @@ The model was built using KERAS library (python), and a GUI was built using TKIN
     Large, lifelike database.
     
     link : https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign
-    
+ 
+# Pracical Demo 
+
+<p align="center">
+  <img src="https://github.com/MRK4863/Traffic-Sign-Classifier-with-GUI/blob/master/ezgif.com-gif-maker.gif" alt="Sublime's custom image"/>
+</p>
+
+
+
 # Environment
     conda create -n traffic python=3.7
     activate traffic
