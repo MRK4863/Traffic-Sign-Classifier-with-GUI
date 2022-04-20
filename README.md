@@ -15,10 +15,11 @@ The model was built using KERAS library (python), and a GUI was built using TKIN
 # Pracical Demo 
 
 <p align="center">
-  <img src="https://github.com/MRK4863/Traffic-Sign-Classifier-with-GUI/blob/master/ezgif.com-gif-maker.gif" alt="Sublime's custom image"/>[^1]
+  <img src="https://github.com/MRK4863/Traffic-Sign-Classifier-with-GUI/blob/master/ezgif.com-gif-maker.gif" alt="Sublime's custom image"/>
+    [^1]
 </p>
  
-[^1]: The template for this GUI is derived from https://github.com/krishnaik06/Deployment-flask
+[^1]:The template for this GUI is derived from https://github.com/krishnaik06/Deployment-flask
 
 
 # Environment
