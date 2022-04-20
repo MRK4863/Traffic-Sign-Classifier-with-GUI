@@ -14,7 +14,10 @@ The model was built using KERAS library (python), and a GUI was built using TKIN
  
 # Pracical Demo 
 
-    ![Alt Text](https://github.com/MRK4863/Traffic-Sign-Classifier-with-GUI/blob/master/ezgif.com-gif-maker.gif)
+<p align="center">
+  <img src="https://github.com/MRK4863/Traffic-Sign-Classifier-with-GUI/blob/master/ezgif.com-gif-maker.gif" alt="Sublime's custom image"/>
+</p>
+
 
 
 # Environment
