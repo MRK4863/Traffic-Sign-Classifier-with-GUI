@@ -14,7 +14,7 @@ The model was built using KERAS library (python), and a GUI was built using TKIN
  
 # Pracical Demo 
     
-![Alt Text](https://github.com/MRK4863/Traffic-Sign-Classifier-with-GUI/blob/master/ezgif.com-gif-maker.gif | width =800 | Height = 500)
+![Alt Text](https://github.com/MRK4863/Traffic-Sign-Classifier-with-GUI/blob/master/ezgif.com-gif-maker.gif = 800 x 600)
 
 # Environment
     conda create -n traffic python=3.7
