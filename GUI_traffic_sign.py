@@ -63,7 +63,7 @@ root = Tk()
 root.title("TRAFFIC SIGN CLASSIFIER")
 root.configure( background = '#CDCDCD')
 root.geometry("500x500")
-root.iconbitmap('ROAD_ICON_1.ico')
+root.iconbitmap(r"E:/GitHub/Traffic-Sign-Classifier-with-GUI/road_icon.ico")
 
 text = Label(root, text='UPLOAD THE IMAGE')
 text.pack()
@@ -85,7 +85,7 @@ def model_predict(img_path):
     #resize the image to a 30x30 with the same strategy as in TM2:
     image_new=img.resize((30,30))
     # Model saved with Keras model.save()
-    MODEL_PATH = 'traffic_sign_model_grayscale_2.model'
+    MODEL_PATH = r"E:/GitHub/Traffic-Sign-Classifier-with-GUI/models/traffic_sign_model_grayscale_2.model"
 
     # Load your trained model
     model = keras.models.load_model(MODEL_PATH)
@@ -154,7 +154,7 @@ def clear_label_image():
     labelphoto = Label(root, image = "")
     
   
-upload_button = PhotoImage(file ='interface.png')
+upload_button = PhotoImage(file ='E:/GitHub/Traffic-Sign-Classifier-with-GUI/interface.png')
 btn =  Button(root, image = upload_button, command = upload_img)
 btn.place(x=225, y = 40)
 
