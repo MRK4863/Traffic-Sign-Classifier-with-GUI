@@ -16,8 +16,10 @@ The model was built using KERAS library (python), and a GUI was built using TKIN
 
 <p align="center">
   <img src="https://github.com/MRK4863/Traffic-Sign-Classifier-with-GUI/blob/master/ezgif.com-gif-maker.gif" alt="Sublime's custom image"/>
-</p>
 
+</p>
+ 
+[^1]: 
 
 
 # Environment
@@ -26,4 +28,4 @@ The model was built using KERAS library (python), and a GUI was built using TKIN
     pip install -r requirements.txt
     
 
-
+<a name="myfootnote1">1</a>: The template for this GUI is derived from https://github.com/krishnaik06/Deployment-flask
