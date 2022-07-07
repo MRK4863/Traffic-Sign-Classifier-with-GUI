@@ -9,7 +9,7 @@ gast==0.2.2
 google-pasta==0.1.8
 grpcio==1.27.2
 h5py==2.10.0
-joblib==0.14.1
+joblib>=0.14.1
 Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.0
 kiwisolver==1.1.0
@@ -25,14 +25,14 @@ protobuf==3.11.3
 pycparser==2.19
 pyparsing==2.4.6
 python-dateutil==2.8.1
-pytz==2019.3
+pytz>=2019.3
 resampy==0.2.2
 scikit-learn==1.1.1
 scipy>=1.4.1
 six==1.14.0
 tensorboard==1.15.0
 tensorflow-estimator==1.15.1
-tensorflow-gpu==1.15.2
+tensorflow-gpu==1.15.5
 termcolor>=1.1.0
 tqdm>=4.43.0
 Werkzeug>=1.0.0
