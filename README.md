@@ -10,7 +10,7 @@ The model was built using KERAS library (python), and a GUI was built using TKIN
     More than 50,000 images in total
     Large, lifelike database.
     
-    link : https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign
+    dataset link : https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign
  
 # Pracical Demo 
 
@@ -18,6 +18,9 @@ The model was built using KERAS library (python), and a GUI was built using TKIN
   <img src="https://github.com/MRK4863/Traffic-Sign-Classifier-with-GUI/blob/master/ezgif.com-gif-maker.gif" alt="Sublime's custom image"/>
 
 </p>
+
+# Online application
+    App link: https://dl-traffic-sign-classifier-api.herokuapp.com/
  
 [^1]: 
 
