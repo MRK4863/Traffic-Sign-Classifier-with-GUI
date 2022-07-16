@@ -19,8 +19,9 @@ The model was built using KERAS library (python), and a GUI was built using TKIN
 
 </p>
 
-# Online application
-    App link: https://dl-traffic-sign-classifier-api.herokuapp.com/
+# Flask application
+Try out the model online
+    https://dl-traffic-sign-classifier-api.herokuapp.com/
  
 [^1]: 
 
