@@ -10,21 +10,24 @@ The model was built using KERAS library (python), and a GUI was built using TKIN
     More than 50,000 images in total
     Large, lifelike database.
     
-    dataset link : https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign
- 
+>    dataset link : https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign
+****
+
 # Pracical Demo 
 
 <p align="center">
   <img src="./ezgif.com-gif-maker.gif" alt="Sublime's custom image"/>
 
 </p>
+****
 
 # Flask application
 Try out the model online
-    https://dl-traffic-sign-classifier-api.herokuapp.com/
+>    https://dl-traffic-sign-classifier-api.herokuapp.com/
  
-[^1]: 
+[^1]:
 
+****
 
 # Environment
     conda create -n traffic python=3.7
@@ -32,4 +35,4 @@ Try out the model online
     pip install -r requirements.txt
     
 
-<a name="myfootnote1">1</a>: The template for this GUI is derived from https://github.com/krishnaik06/Deployment-flask
+><a name="myfootnote1">1</a>: The template for this GUI is derived from https://github.com/krishnaik06/Deployment-flask
