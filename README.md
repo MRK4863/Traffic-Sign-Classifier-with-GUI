@@ -10,7 +10,8 @@ The model was built using KERAS library (python), and a GUI was built using TKIN
     More than 50,000 images in total
     Large, lifelike database.
     
->    dataset link : ![Dataset](thttps://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign)
+>    dataset link : [Dataset](https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign)
+>    
 ****
 
 # Pracical Demo 
@@ -23,7 +24,7 @@ The model was built using KERAS library (python), and a GUI was built using TKIN
 
 # Flask application
 Try out the model online
->    https://dl-traffic-sign-classifier-api.herokuapp.com/
+>    [Applicatoin](https://dl-traffic-sign-classifier-api.herokuapp.com/)
  
 [^1]:
 
