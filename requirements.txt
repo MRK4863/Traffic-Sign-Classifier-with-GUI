@@ -4,17 +4,18 @@ gevent==21.12.0
 Keras-Applications>=1.0.8
 Keras-Preprocessing>=1.1.0
 matplotlib==3.5.2
-numpy==1.22.0
+numpy
 opt-einsum==3.2.0
-pandas>=1.4.3
+pandas
+protobuf==3.20.0
 Pillow>=7.1.0
 resampy==0.2.2
-scikit-learn==1.1.1
+scikit-learn
 scipy>=1.4.1
 six==1.14.0
 tensorboard>=1.15.0
 tensorflow-estimator==1.15.1
-tensorflow-gpu==2.8.0
+tensorflow-cpu==2.8.0
 termcolor>=1.1.0
 tqdm>=4.43.0
 Werkzeug>=1.0.0
@@ -22,3 +23,4 @@ wrapt>=1.12.0
 opencv-python>=4.5.5.64
 llvmlite==0.38.1
 numba==0.55.2
+
