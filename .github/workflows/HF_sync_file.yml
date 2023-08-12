@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Sync with Hugging Face
+    - name: Sync HF
       uses: nateraw/huggingface-sync-action@v0.0.5
       with:
         github_repo_id: MRK4863/Traffic-Sign-Classifier-with-GUI.git
