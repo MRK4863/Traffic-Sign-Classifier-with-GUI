@@ -130,7 +130,8 @@ def model_predict(model,img_path):
     #turn the image into a numpy array
     x=np.array(image_new)
     # x_gray = cv2.cvtColor(x, cv2.COLOR_RGB2GRAY)
-    x_gray = np.array(x_gray)
+    
+    x_gray = np.array(x)
     x_gray = x_gray.reshape(1,x_gray.shape[0],x_gray.shape[1],1)
     print(x_gray.shape)
     preds = model.predict(x_gray)
