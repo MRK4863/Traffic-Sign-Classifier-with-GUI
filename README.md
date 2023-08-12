@@ -24,7 +24,7 @@ The model was built using KERAS library (python), and a GUI was built using TKIN
 
 # Flask application
 Try out the model online
->    [Applicatoin](https://dl-traffic-sign-classifier-api.herokuapp.com/)
+>    [Real-time HuggingFace Application](https://huggingface.co/spaces/MRK4863/traffic_sign_classifier)
  
 [^1]:
 

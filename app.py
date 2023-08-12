@@ -19,20 +19,20 @@ from gevent.pywsgi import WSGIServer
 #######################################################################
 #from tkinter import *
 #from tkinter.ttk import *
-from PIL import Image, ImageTk
+from PIL import Image, ImageTk, ImageOps
 #from tkinter.filedialog import askopenfilename 
 from keras.models import load_model
 import keras
 import numpy as np
 import pandas as pd
-import cv2
+# import cv2
 import os
 from werkzeug.utils import secure_filename
 
 
 #from tensorflow import keras 
 from PIL import Image, ImageOps
-import cv2 
+# import cv2 
 import random
 import numpy as np
 import os
@@ -119,6 +119,7 @@ def model_predict(model,img_path):
     # encoded=message['image']
     # decoded=base64.b64decode(encoded)
     img = Image.open(img_path)
+    img = ImageOps.grayscale(img)
     
     image_new=img.resize((30,30))
     # Model saved with Keras model.save()
@@ -128,7 +129,7 @@ def model_predict(model,img_path):
     #model = keras.models.load_model(MODEL_PATH)
     #turn the image into a numpy array
     x=np.array(image_new)
-    x_gray = cv2.cvtColor(x, cv2.COLOR_RGB2GRAY)
+    # x_gray = cv2.cvtColor(x, cv2.COLOR_RGB2GRAY)
     x_gray = np.array(x_gray)
     x_gray = x_gray.reshape(1,x_gray.shape[0],x_gray.shape[1],1)
     print(x_gray.shape)
@@ -194,5 +195,5 @@ def upload():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False, host='0.0.0.0', port=7860 )
 
